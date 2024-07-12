@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.5.2
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 13, 2019 at 02:04 PM
--- Server version: 10.1.21-MariaDB
--- PHP Version: 7.1.2
+-- Generation Time: Jul 12, 2024 at 07:51 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -38,22 +39,20 @@ CREATE TABLE `student` (
   `gender` varchar(10) NOT NULL,
   `blgroup` varchar(5) NOT NULL,
   `division` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `student`
 --
 
 INSERT INTO `student` (`id`, `sname`, `gname`, `contact`, `email`, `address`, `class`, `shift`, `gender`, `blgroup`, `division`) VALUES
-(8, 'Tahmid Nishat', 'Abul khasem khan', '01683302276', 'tahmaaidoane@gmail.com', 'Maheshkhali', 'Hons', 1, '', 'A+', 1),
-(17, 'Tahmid Uddin Mahmud Nishat', 'Abul khasem khan', '01822597379', 'tahmidnishat@gmail.com', 'Maheshkhali', '12', 1, 'male', 'A+', 1),
-(18, 'Izaz Mahmud Tahur', 'Abul khasem khan', '01683302276', 'izaz@gmail.com', 'Fakiraghona, Bara Maheshkhali', '5', 1, 'male', 'A+', 1),
-(19, 'Abid Mahmud Abrar', 'Abul khasem khan', '01683302276', 'abid@gmail.com', 'Maheskhali , Cox\'s Bazar', '8', 1, 'male', 'O+', 1),
-(20, 'Niaz Mahmud Tazbeed', 'Abul khasem khan', '01822597379', 'niaz@gmail.com', 'Cox\'s Bazar', '6', 1, 'male', 'A+', 2),
-(21, 'Hares Uddin Mahmud Shakil', 'Abul khasem khan', '01683302276', 'shakil@gmail.com', 'Dhaka', 'Hons', 2, 'male', 'B+', 1),
-(22, 'Saif Uddin Mahmud Sohan', 'Abul khasem khan', '01816057775', 'sohan@gmail.com', 'Dhaka', 'Hons', 1, 'male', 'AB+', 3),
-(38, 'Tahmid Uddin Mahmud Nishat', 'Abul khasem khan', '01683302276', 'tahmid.umn@gmail.com', 'Kamarpara, Turag, Dhaka 1230', 'Hons', 1, 'male', 'A+', 1),
-(40, 'Al Amin Fahad', 'Mr Fahad Dad', '01718559966', 'alamin@gmail.com', 'Valuka, Mymenshing', 'Hons', 1, 'male', 'O+', 1);
+(41, 'My Name', 'My Names', '01788529332', 'jhbjakir@gmail.com', 's123', 'fdd,md', 1, 'male', 'A+', 1),
+(56, 'Jakir', 'Hossen Ali', '01788529332', 'Jhbjakirfnns@gmail.com', 'Noyapara', 'Nine', 2, 'male', 'A+', 2),
+(57, 'My Name', 'My Names', '01788529332', 'jhbjakirfb@gmail.com', 'Hobigonj', 'Nine', 1, 'male', 'A+', 3),
+(58, 'Jakir Hossen', 'My Names', '01788529332', 'Jhbjakirfbjk@gmail.com', 'nhjnkjnsdns', 'Nine', 2, 'male', 'A+', 3),
+(59, 'Jakir Hossen', 'Abdul Jalil', '01788529332', 'Jhbjakirfbggh@gmail.com', 'Noyapara', 'Nine', 1, 'male', 'A+', 1),
+(60, 'Jakiya', 'My Names', '01788529332', 'Jhbjakirfbfsf@gmail.com', 'Noyapra', 'Nine', 1, 'female', 'A+', 1),
+(63, 'Aquila Williamson', 'Griffith Mcdowell', '01728704205', 'zater@mailinator.com', 'Recusandae Proident', 'Nostrum om', 1, 'male', 'A+', 2);
 
 --
 -- Indexes for dumped tables
@@ -74,7 +73,9 @@ ALTER TABLE `student`
 -- AUTO_INCREMENT for table `student`
 --
 ALTER TABLE `student`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

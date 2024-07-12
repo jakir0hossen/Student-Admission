@@ -7,102 +7,14 @@ a:hover {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #333;
-    text-transform: capitalize;
-    margin-bottom: 10px;
-}
-
-section.section-padding {
-    padding: 80px 0;
-}
-/* 
-.header-area {
-    background-color: #563D7C;
-    padding: 10px;
-}
-
-.header-absoulate {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 9;
-    width: 100%;
-    background: none;
-    color: #563D7C;
-    margin-bottom: 30px;
-    margin-top: 6px;
-}
-
-.logo a i.fa.fa-home {
-    color: #563D7C;
-    font-size: 30px;
-    margin-right: 6px;
-}
-
-.logo span {
-    display: inline-block;
-    color: #563D7C;
-    margin-left: 10px;
-    text-transform: uppercase;
-    margin: 0;
-    font-size: 24px;
-    font-weight: 700;
-
-}
-
-.main-menu ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.main-menu ul li {
-    display: inline-block;
-}
-
-.main-menu ul li a {
-    display: block;
-    padding: 5px 10px;
-    color: #563D7C;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-    transition: .4s;
-}
-
-.main-menu ul li a:hover {
-    background: #563D7C;
-    color: #fff;
-}
-
-span.social-icon a {
-    color: #563D7C;
-    font-size: 18px;
-    margin: 2px 5px;
-    display: inline-block;
-}
-
-span#na {
-    font-weight: 300;
-} */
 
 .slider-bg-1 {
     background-image: url(assets/img/student-bg-2.jpg);
 }
 
-.slider-bg-2 {
-    background-image: url(assets/img/student-bg-3.jpg);
-}
 
 .single-slider-item {
     background-position: center;
@@ -166,11 +78,8 @@ a.boxed-btn {
     background:#f0ad4e;
 }
 
-/*============================
-Form CSS
-==============================*/
 
-.section-title h3 {
+.section-title  h3 {
     background: #f0ad4e;
     padding: 10px;
     color: #fff;
@@ -179,9 +88,6 @@ Form CSS
     margin-bottom: 25px;
 }
 
-h3#et {
-    text-transform: inherit;
-}
 
 .section-title .col-md-12 {
     margin: 0;
@@ -264,15 +170,13 @@ span.error {
     margin-bottom: 15px;
 }
 
-/*=================================
-View page CSS
-====================================*/
+
 
 table {
-    /*	background-color: #f8f8f8;*/
+   
     color: #333;
     border: none;
-    width: 100%;
+    width: 90%;
     font-size: 15px;
     margin-bottom: 35px;
     overflow: hidden;
@@ -325,9 +229,7 @@ tr:nth-child(even) {
 }
 
 
-/*===============================
-Footer CSS
-=================================*/
+
 footer {
     background-color: #f0ad4e;
     padding: 50px 0;

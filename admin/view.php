@@ -12,7 +12,7 @@
         }
                
 
-                /* $cn = mysqli_connect("localhost", "root", "", "db_admission");*/
+               
 				$sql = "select * from student";
 				
 				$table = mysqli_query($cn, $sql);

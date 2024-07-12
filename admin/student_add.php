@@ -1,8 +1,4 @@
-<!-- ===============================================
-	**** A COMPLETE VALIDATE FORM WITH PHP ****
-================================================ -->
 
-<!-- ==============  PHP begin  =================-->
 <?php
 					$sname = "";
 					$gname = "";
@@ -155,7 +151,7 @@
 						
 						if($er == 0)
 						{
-                            /* $cn = mysqli_connect("localhost", "root", "", "db_admission");*/
+                         
 							
 							$sql = "INSERT INTO student (sname, gname, contact, email, address, class, shift, gender, blgroup, division) VALUES (
 							'".mysqli_real_escape_string($cn, strip_tags($sname))."',
@@ -203,7 +199,7 @@
 					  return $data;
 					}
 					
-//================================ PHP End =============================	
+
 ?>
 
 <div class="form-area">
